@@ -136,6 +136,24 @@ nav a {
 .small-screen {
   background-color: #212b55; /* Açık kırmızı */
 }
-const containerStyle = `container ${
-  width < 900 ? "small-screen" : "large-screen"
-}`;
+.mapP {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+.mapGeo {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.mapBtn {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.mapContainer,
+.mapForm {
+  margin: 5rem;
+}

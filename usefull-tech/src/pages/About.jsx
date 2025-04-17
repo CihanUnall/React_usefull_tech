@@ -1,5 +1,6 @@
 import React from "react";
 import WindowResizeLogger from "../components/WindowResizeLogger";
+import UserInfoForm from "../components/UserInfoForm";
 
 function About() {
   return (
@@ -11,7 +12,9 @@ function About() {
             <WindowResizeLogger />
           </div>
         </div>
-        <div className="aboutsecond"></div>
+        <div className="aboutsecond">
+          <UserInfoForm />
+        </div>
         <div className="aboutthird">
           <p>Anzahl logischer Prozessoren: 8</p>
           <p>Ram: 8GB</p>
